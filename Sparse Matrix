@@ -10,7 +10,7 @@ int main()
     cout<<"Enter number of columns = ";
     cin>>q;
     int arr[p][q];
-    cout<<"Enter values to array: \n";
+    cout<<"Enter values of array: \n";
     for(i=0;i<p;i++)
     {
         for(j=0;j<q;j++)
