@@ -1,4 +1,5 @@
-#a code to check whether a matrix is a sparse matrix or not.
+/*a code to check whether a matrix is a sparse matrix or not.
+a sparse matrix is a matrix which has majority of it's elements as zero. */
 #include <iostream>
 using namespace std;
 int main()
