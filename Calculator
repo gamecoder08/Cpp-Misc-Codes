@@ -1,0 +1,43 @@
+/*A calculator to do basic calculations between two numbers. */
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,n,s;
+    cout<<"\t CALCULATOR\n";
+    cout<<" Choose the Operation: \n";
+    cout<<"1. Addition \n2. Subtraction \n3. Multiplication \n4. Division \n5. Modulus\n";
+    cout<<"Enter  Corresponding number of operation: ";
+    cin>>n;
+    if(n==1)
+        {cout<<"Enter first number = ";
+        cin>>a;
+        cout<<"Enter second number = ";
+        cin>>b;
+        s=a+b;}
+    else if(n==2)
+        {cout<<"Enter first number = ";
+        cin>>a;
+        cout<<"Enter second number = ";
+        cin>>b;
+        s=a-b;}
+    else if(n==3)
+        {cout<<"Enter first number = ";
+        cin>>a;
+        cout<<"Enter second number = ";
+        cin>>b;
+        s=a*b;}
+    else if(n==4)
+        {cout<<"Enter first number = ";
+        cin>>a;
+        cout<<"Enter second number = ";
+        cin>>b;
+        s=a/b;}
+    else if(n==5)
+        {cout<<"Enter first number = ";
+        cin>>a;
+        cout<<"Enter second number = ";
+        cin>>b;
+        s=a%b;}
+    cout<<"Your answer = "<<s;
+}
